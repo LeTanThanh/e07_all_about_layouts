@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manager Layout</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Manager layout</h2>
+      <%= yield %>
+    </div>
+  </body>
+</html>
